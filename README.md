@@ -2,7 +2,7 @@
 
 > ## De The Odin Project [curriculum](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page)
 
-> - [live demo](https://igorashs.github.io/restaurant-page/) 
+> - [live demo](https://facundopetri.github.io/restaurante/) 
 
 ## Tarea
 > Crear una pagina de un restaurante usando JavaScript para generar todo el contenido del website
