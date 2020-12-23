@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "customf";
+  src: url("./fonts/cb.ttf");
+}
+
+body {
+  background: url("./img/_clicks.jpg") no-repeat center center fixed;
+  font-family: "Josefin Sans", sans-serif;
+}
+.title-home {
+  font-family: "customf";
+  color: yellow;
+  text-align: center;
+  background-color: black;
+  border-radius: 5px;
+  font-size: 40px;
+  width: 30%;
+  margin: auto;
+}
+.text-home {
+  font-size: 20px;
+  text-align: center;
+  width: 70%;
+  margin: 10px auto;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  margin-bottom: 20px;
+}
+.navelem {
+  font-size: 30px;
+  padding: 10px;
+  cursor: pointer;
+}
+.navelem:hover {
+  background-color: hsla(0, 100%, 100%, 0.5);
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.85);
+  position: absolute;
+  bottom: 0;
+  width: 99%;
+  height: 2.5rem;
+}
+.footerelem {
+}
+.main-contact {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 10% 0 10%;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+form {
+  display: flex;
+  flex-flow: column wrap;
+  width: 40%;
+  margin: auto;
+  margin-top: 30px;
+}
+.form-control {
+  font-size: 15px;
+  border: 1px solid #eeeeee;
+  height: 30px;
+  margin: 2px;
+  border-radius: 5px;
+}
+button {
+  font-weight: 500;
+  font-size: 15px;
+  font-family: "Josefin Sans", sans-serif;
+  width: 75px;
+  padding: 15px 5px 15px 5px;
+  margin: auto;
+  background-color: black;
+  color: yellow;
+  text-transform: uppercase;
+  border-radius: 0;
+  cursor: pointer;
+}
+.main-menu {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.hambur {
+  margin: 10px;
+  width: 500px;
+}
+
+.item {
+  width: 300px;
+}
